@@ -1,0 +1,14 @@
+{
+  "name": "protocol_8117_application",
+  "version": "1.0.0",
+  "description": "Protocol8117 Native App\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C 8117 Native App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Anosike",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.1"
+  }
+}
