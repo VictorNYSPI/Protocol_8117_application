@@ -20,56 +20,51 @@
     <p>👋</p>
     <p id="info"></p>
 
-    <div class="links">
+    <div class="joystick_page_links">
         <p><a href="index.html"> Go to Main Page </a></p>
         <p><a href="rate_images_session.html">Go to Rate Images Session</a></p>
     </div>
 
-    <div class="participant_forms">
+    <div class="participant_forms_joystick">
 
         <form action="" method="get">
 
 
-            <div class="participant_section">
+            <div class="participant_section_joystick">
 
-                <label for="participant_id"> Participant ID: </label>
+                <label for="participant_id"> Participant ID. Please make sure that both positive and negative ratings for participants are saved in the same folder prior to proceeding </label>
                 <input type="text" name="participant_id" id="participant_id">
 
             </div>
 
-            <div class="radios_section">
 
-                <div class="positive_rating_section">
-                    <input type="radio" name="rating_type" id="pos_rating" value="pos_rating">
-                    <label for="pos_rating">Positive Ratings</label>
+            <div class="radios_section_joystick">
+
+                <div class="aat_section">
+                    <input type="radio" name="joystick_session_type" id="aat" value="aat">
+                    <label for="aat">AAT</label>
                 </div>
                 
-                <div class="negative_rating_section">
-                    <input type="radio" name="rating_type" id="neg_rating" value="neg_rating">
-                    <label for="neg_rating">Negative Ratings</label>
+                <div class="abm_section">
+                    <input type="radio" name="joystick_session_type" id="abm" value="abm">
+                    <label for="abm">ABM</label>
                 </div>
                 
             </div>
 
-            <div class="images_folder_section">
 
-                <div class="positive_images_section">
+            <div class="participant_csv_data_section">
 
-                    <div class="positive_images_display">No Folder for Positive Images Selected</div>
-                    <button>Choose Location</button>
-
-                </div>
-
-                <div class="negative_images_section">
-
-                    <div class="negative_images_display">No Folder for Negative Images Selected</div>
-                    <button>Choose Location</button>
-
-                </div>
+                <div class="participant_csv_label">Please Choose Location to Upload CSV Data</div>
+                <button>Choose Location</button>
 
             </div>
-            
-            <button id="rate_button">Rate</button>
+
+
+            <button id="run_button">Run</button>
+
+
+            <button id="settings">Settings</button>
             
         </form>
 
