@@ -25,6 +25,56 @@
         <p><a href="rate_images_session.html">Go to Rate Images Session</a></p>
     </div>
 
+    <div class="participant_forms">
+
+        <form action="" method="get">
+
+
+            <div class="participant_section">
+
+                <label for="participant_id"> Participant ID: </label>
+                <input type="text" name="participant_id" id="participant_id">
+
+            </div>
+
+            <div class="radios_section">
+
+                <div class="positive_rating_section">
+                    <input type="radio" name="rating_type" id="pos_rating" value="pos_rating">
+                    <label for="pos_rating">Positive Ratings</label>
+                </div>
+                
+                <div class="negative_rating_section">
+                    <input type="radio" name="rating_type" id="neg_rating" value="neg_rating">
+                    <label for="neg_rating">Negative Ratings</label>
+                </div>
+                
+            </div>
+
+            <div class="images_folder_section">
+
+                <div class="positive_images_section">
+
+                    <div class="positive_images_display">No Folder for Positive Images Selected</div>
+                    <button>Choose Location</button>
+
+                </div>
+
+                <div class="negative_images_section">
+
+                    <div class="negative_images_display">No Folder for Negative Images Selected</div>
+                    <button>Choose Location</button>
+
+                </div>
+
+            </div>
+            
+            <button id="rate_button">Rate</button>
+            
+        </form>
+
+    </div>
+
     
 
 
